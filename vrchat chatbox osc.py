@@ -8,5 +8,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     client = udp_client.SimpleUDPClient(args.host, args.port)
-    client.send_message("/chatbox/input",["Hello World!",True])
+    client.send_message("/chatbox/input",["Hello World!",True,True])
 
